@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: "Handbook",
-                to: "handbook",
+                to: "/docs/intro",
               },
             ],
           },
@@ -110,6 +110,19 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/docusaurus",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
